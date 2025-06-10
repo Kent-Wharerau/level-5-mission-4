@@ -1,0 +1,24 @@
+# Node dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Environment config
+.env
+
+# Test files (optional)
+__tests__/
+*.test.js
+*.spec.js
+
+# Editor & OS junk
+.vscode
+.idea
+*.swp
+.DS_Store
+
+# Logs & temp
+*.log
+logs
+tmp

@@ -1,0 +1,23 @@
+# Node dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Build output (React)
+build
+
+# Environment config
+.env
+.env.*
+
+# Editor & OS junk
+.vscode
+.idea
+*.swp
+.DS_Store
+
+# Logs & temp
+*.log
+logs
+tmp

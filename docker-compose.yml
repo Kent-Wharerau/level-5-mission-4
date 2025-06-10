@@ -1,0 +1,23 @@
+services:
+  backend:
+    build:
+      context: ./back-end
+      dockerfile: dockerfile
+    ports:
+      - "5000:5000"
+    working_dir: /app
+    volumes:
+      - ./back-end:/app
+    env_file:
+      - ./back-end/.env
+
+  frontend:
+    build:
+      context: ./front-end
+      dockerfile: dockerfile
+    ports:
+      - "3000:80"
+    working_dir: /app
+    volumes:
+      - ./front-end:/app
+
